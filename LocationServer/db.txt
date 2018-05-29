@@ -1,0 +1,6 @@
+create database lbq;
+use lbq;
+
+create table newuser(username varchar(50),password varchar(50),confirm_password varchar(50));
+
+create table payment(username varchar(30),amount double,transaction_date date,search_type varchar(50));
